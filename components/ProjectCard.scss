@@ -1,0 +1,46 @@
+
+
+.project__card {
+	padding: 10px;
+	border: 1px solid #ccc;
+	border-radius: 10px;
+	-webkit-box-shadow: 3px 3px 5px 0px rgba(50, 50, 50, 0.75);
+	-moz-box-shadow: 3px 3px 5px 0px rgba(50, 50, 50, 0.75);
+	box-shadow: 3px 3px 5px 0px rgba(50, 50, 50, 0.75);
+	width: 80%;
+	margin: 1rem auto;
+	text-align: center;
+}
+
+.project__title {
+	font-weight: 500;
+}
+
+.project__desc {
+	font-size: 18px;
+}
+
+.all__projects {
+	margin: 0 auto;
+}
+
+.all__projects button {
+	border: 3px solid black;
+	background-color: white;
+	padding: 5px;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	font-weight: 700;
+}
+
+@media only screen and ( min-width: 800px ) {
+	.projects {
+		flex-direction: row;
+	}
+	.project__card {
+		padding: 10px;
+		width: 30%;
+		margin: 0;
+		text-align: center;
+	}
+}

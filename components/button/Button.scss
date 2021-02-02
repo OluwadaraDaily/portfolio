@@ -1,0 +1,15 @@
+.btn {
+    padding: 8px;
+    border: 2px solid black;
+    width: 37%;
+    margin: 0 auto;
+}
+
+@media only screen and ( min-width: 800px ) {
+    .btn {
+        padding: 10px 25px;
+        border: none;
+        width: auto;
+        font-size: 25px;
+    }
+}
