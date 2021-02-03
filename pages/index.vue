@@ -46,7 +46,7 @@ export default {
 					name: "Message County",
 					url: 'http://message-county.herokuapp.com',
 					img: 'message-county.svg',
-					desc: "This is a website where you can sned instant messages to groups that you create. It was built with Flask, Javascript and Socket IO."
+					desc: "This is a website where you can send instant messages to groups that you create. It was built with Flask, Javascript and Socket IO."
 				},
 
 			],
