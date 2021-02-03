@@ -5,22 +5,24 @@
 			Hi, I'm Oluwadara. <br>
 			I am a Software Developer. <br>
 		</h1>
-	</div> <hr>
-	<div id="projects">
+	</div>
+	<div id="projects" class="projects">
 		<h1 class="title">Projects</h1>
 		<div class="project__cards">
 			<ProjectCard v-for="project in projects" :key="project.id" :name=project.name :desc=project.desc :img=project.img :url=project.url></ProjectCard>
 		</div>
 		<div class="project__btn">
-		<Button buttonIcon="arrow-right" buttonName="See All Other Projects" btnLink="/projects"/> <hr>
+		<Button buttonIcon="arrow-right" buttonName="See All Other Projects" btnLink="/projects"/>
+		</div>
+	</div> 
+
+	<div class="interest-wrapper">
+		<h1 class="title">Interests</h1>
+		<div id="interests" class="interests">	
+			<Interests v-for="interest in interests" :key="interest.id" :name=interest.name :img=interest.img></Interests>
 		</div>
 	</div>
-
-	<h1 class="title">Interests</h1>
-	<div id="interests" class="interests">	
-		<Interests v-for="interest in interests" :key="interest.id" :name=interest.name :img=interest.img></Interests>
-	</div> <hr>
-	<div id="contact-me">
+	<div id="contact-me" class="contact-me">
 		<h1 class="title">Contact Me</h1>
 		<ContactMe v-for="contact in contacts" :key=contact.id :img=contact.img :name=contact.name :url=contact.url></ContactMe>
 	</div>
