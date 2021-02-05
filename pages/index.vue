@@ -39,17 +39,18 @@ export default {
 		return {
 			projects: [
 				{
-					name: "Dad Jokes",
-					url: 'http://deadjokes.netlify.app',
-					img: 'dad-jokes.jpg',
-					desc: "This is a website where you can get nice dad jokes.You can also send jokes to someone's mail."
+					name: "Pondify",
+					url: 'http://pondify.herokuapp.com/',
+					img: 'pondify.jpg',
+					desc: "This is an app for getting real time data from your pond connected to your ThingSpeak account. I made this for my final year project."
 				},
 				{
-					name: "Message County",
-					url: 'http://message-county.herokuapp.com',
-					img: 'message-county.svg',
-					desc: "This is a website where you can send instant messages to groups that you create. It was built with Flask, Javascript and Socket IO."
+					name: "Pizza Mange",
+					url: 'http://pizza-mange.herokuapp.com',
+					img: 'pizza-mange.jpg',
+					desc: "This is a pizza-ordering website, utilising the Menu of Pinocchio's at Harvard. It was developed with Django, Javascript, and SQLite3. "
 				},
+				
 
 			],
 			interests: [

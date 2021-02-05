@@ -28,6 +28,7 @@
     .project__cards {
         display: flex;
         flex-direction: row;
+        flex-wrap: wrap;
         justify-content: space-around;
     }
     .project__btn {
